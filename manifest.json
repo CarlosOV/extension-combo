@@ -3,8 +3,6 @@
   "name": "Contador de combos",
   "description": "Esta extensión lleva un contador de combos",
   "version": "1.0",
-  "host_permissions": ["*://*/*"],
-  "permissions": ["*://*/*"],
   "content_scripts": [
     {
       "matches": [
