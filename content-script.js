@@ -30,7 +30,7 @@ function resetComboCounter() {
 
 function injectFont(){
   // Injecta las fuentes 
-  let font = new FontFace("PressStart2P", `url('${chrome.extension.getURL ("fonts/PressStart2P-Regular.woff")}')`);
+  let font = new FontFace("PressStart2P", `url('${chrome.runtime.getURL ("fonts/PressStart2P-Regular.woff")}')`);
   document.fonts.add(font);
 }
 
